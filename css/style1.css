@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'indira';
+    src: url('indira_k-webfont.woff2') format('woff2'),
+         url('indira_k-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3{
+font-size: 1.9vw;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:after{
+  color: black;
+}
+
+a:hover{
+  color:rgb(155, 154, 160);
+ 
+}
+
+
+.container-header{
+  display: flex;
+  flex-direction: column;
+  width: 90%
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+  width: 59%;
+  position: relative;
+}
+
+.star{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 60px;
+
+}
+
+.list_chronicles{
+  margin-top: 15px;
+}
+
+
+.headspace{
+  margin-top: 7%;
+}
+
+.main-header h1{
+  text-align: center;
+  font-size: 7vw;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  margin-left: 20%;
+  font-family: "indira";
+}
+
+.main-header h4{
+  text-align: center;
+  font-size: 5vw;
+  margin-top: 8%;
+  margin-bottom: 2%;
+  margin-left: 23%;
+  font-family: "indira";
+}
+
+.title_chronicle{
+  
+  font-size: 5vw;
+}
+
+.by-line{
+  margin-left: 20%;
+  text-align: center;
+}
+
+body{
+  color: black;
+  font-size: 1.3vw;
+  font-weight: lighter;
+  font-family:"Andale Mono", monospace;
+}
+
+
+.sub{
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.sub i{
+  padding-bottom: 5%;
+  font-family:"indira";
+}
+
+.sub h2{
+font-size: 1.6vw;
+}
+
+.intro{
+  text-align: justify;
+  padding-bottom: 10%;
+  line-height: 1.6em;
+}
+
+.intro i{
+  text: italic;
+  font-size: 1vw;
+}
+
+.intro p{
+font-size: 1.1vw;
+}
+
+#har h4{
+  padding-left: 5px;
+}
+
+
+#edu h3{
+  padding-top: 70px;
+
+}
+
+
+
+#volu h4 {
+  padding-top: 40px;
+  text-align: left;
+}
+
+
+
+#bio h4{
+  padding-left: 33px;
+}
+
+#space h5{
+  padding-bottom: 70px;
+}
+
+
+#infos i{
+  padding-bottom: 60px;
+}
+
+#infos p{
+  text-align: justify;
+  padding-bottom: 20px;
+  line-height: 1.6em;
+  font-size: 1.1vw;
+}
+
+#infos h3{
+  padding-top: 120px;
+}
+
+#img{
+  position: relative;
+  margin-left: 27%;
+  margin-bottom: 10%;
+  }
+
+#imginfos{
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+#infos h4{
+  font-weight: normal;
+}
+
+#infos h5{
+    font-weight: normal;
+    font-style: italic;
+}
+
+#we p{
+padding-left: 0px;
+}
+
+#space h5{
+padding-bottom: 70px;
+}
+
+#space p{
+padding-bottom: 70px;
+}
+
+#title h4{
+font-size: 1.5vw;
+padding-top: 30px;
+padding-left: 10px;
+text-align: left;
+}
+
+#skills i{
+padding-bottom: 0px;
+}
+
+#skills h3{
+padding-top: 60px;
+}
+
+#skills h4{
+font-size: 1.45vw;
+}
+
+#skills p{
+  text-align: justify;
+  font-size: 1.1vw;
+  padding-left: 21px;
+  line-height: 1.6em;
+}
+
+#navbar{
+  position: fixed;
+  top: 40%;
+  font-family:"indira";
+  font-size: 23px;
+}
+
+#navbar li{
+  margin-bottom: 10px;
+}
+
+#containernav li{
+  padding-top: 7%;
+  list-style: none;
+  font-weight: 550;
+}
+
+#comment p{
+font-size: 0.9vw;
+font-style: italic;
+padding-top: 30px;
+}
+@media (max-width: 1000px){
+  #navbar{
+    position:absolute;
+    top: 20%
+  }
+}
